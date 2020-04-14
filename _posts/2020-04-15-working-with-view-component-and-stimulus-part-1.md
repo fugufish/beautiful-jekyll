@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Building an application with Github's ViewComponent and Stimulus: Part 1 (Getting Started with ViewComponent)"
+title: "ViewComponent and Stimulus Part 1: ViewComponent"
 tags: [ruby, rails, vew_component, stimulus]
 comments: true
 ---
+
 
 Github's [ViewComponent](https://github.com/github/view_component) and [Stimulus](https://stimulusjs.org/) is one 
 of those matches made in heaven. Like chocolate and peanut butter, caramel and sea salt, or Abbott and Costello, they 
