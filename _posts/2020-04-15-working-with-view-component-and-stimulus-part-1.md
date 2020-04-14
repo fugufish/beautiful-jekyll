@@ -54,7 +54,7 @@ require "view_component/engine"
 
 ### Refactoring Partials into ViewComponents
 
-The easiest way to figure out what pieces can be refactored into components it to look for partials. Almost any partial
+The easiest way to figure out what pieces can be refactored into components is to look for partials. Almost any partial
 could, and should probably be refactored into a ViewComponent. For more information on why you would favor a 
 ViewComponent over a partial, check out ViewComponent's readme on the render speed and testability of ViewComponents.
 
@@ -62,7 +62,7 @@ ViewComponent over a partial, check out ViewComponent's readme on the render spe
 
 The first two partials we will refactor are the header and footer. Start with the header by creating the necessary 
 component files. I am not using the generator in this case because I am breaking from ViewComponent convention
-here  a bit. It'll be come apparent why later in this series. We create 3 files:
+here  a bit. It’ll become apparent why later in this series. We create 3 files:
 
 **`app/components/shared/header/component.rb`:**
 
