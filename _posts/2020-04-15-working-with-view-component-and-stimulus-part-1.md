@@ -170,7 +170,7 @@ the application.
 Finally, lets focus on a place where ViewComponent REALLY shines. Testing. We can test components individually with
 very little effort. Let's add some test to cover the logged in verses the not logged in logic.
 
-```erbruby
+```ruby
 require "test_helper"
 
 class Shared::Header::ComponentTest < ViewComponent::TestCase
