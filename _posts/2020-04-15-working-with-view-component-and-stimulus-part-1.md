@@ -10,7 +10,7 @@ of those matches made in heaven. Like chocolate and peanut butter, caramel and s
 seem to just fit together perfectly. In this series of posts I will detail what I have found to be an ideal setup for
 developing Rails applications using these two complimentary libraries.
 
-This first post focuses exlcusively on ViewComponent. We will add Stimulus in the next post in this series and
+This first post focuses exclusively on ViewComponent. We will add Stimulus in the next post in this series and
 demonstrate how well these two libraries pair together.
 
 ## Getting Started with ViewComponent
