@@ -16,7 +16,7 @@ developing Rails applications using these two complimentary libraries.
 This first post focuses exlcusively on ViewComponent. We will add Stimulus in the next post in this series and
 demonstrate how well these two libraries pair together.
 
-## ViewComponent
+## Getting Started with ViewComponent
 
 ViewComponent is a Rails library by Github that somewhat mirrors the idea of 
 [React Components](https://reactjs.org/docs/react-component.html) in the Rails environment. In the
@@ -26,8 +26,6 @@ ViewComponent is a Rails library by Github that somewhat mirrors the idea of
  Unlike traditional Rails decorators, ViewComponents come with their own Ruby Component class that is used to define
  the variables and methods that the view needs in order to render. This makes testing views dead simple, and strongly
  encourages reusable code.
-
-## Getting Started with ViewComponent
 
 For the rest of this series of posts I will be using an existing application to demonstrate how to use ViewComponent
 and Stimulus effectively. In this case, I will be using 
