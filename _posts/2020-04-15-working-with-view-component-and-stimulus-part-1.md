@@ -187,11 +187,15 @@ class Shared::Header::ComponentTest < ViewComponent::TestCase
   end
 
   test "render component when logged out" do
+    render_inline(render_inline(Shared::Header::Component.new(current_user: users(:michael), logged_in: false)))
+
     assert_link("Log in")
     refute_link("Log out")
   end
 end
 ```
+
+As you can see, testing the component is incredibly simple, and it is FAST.
 
 And you're done! Now take what you learned and apply it to the `_footer.html.erb` partial. Next up, we will integrate
 Stimulus!
