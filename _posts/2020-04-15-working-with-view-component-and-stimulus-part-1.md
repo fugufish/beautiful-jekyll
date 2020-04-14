@@ -13,6 +13,9 @@ of those matches made in heaven. Like chocolate and peanut butter, caramel and s
 seem to just fit together perfectly. In this series of posts I will detail what I have found to be an ideal setup for
 developing Rails applications using these two complimentary libraries.
 
+This first post focuses exlcusively on ViewComponent. We will add Stimulus in the next post in this series and
+demonstrate how well these two libraries pair together.
+
 ## ViewComponent
 
 ViewComponent is a Rails library by Github that somewhat mirrors the idea of 
@@ -53,26 +56,6 @@ Bundler.require(*Rails.groups)
 
 require "view_component/engine"
 ```
-
-### Installing Stimulus
-
-Adding Stimulus is just about as easy. 
-
-First we add the library through `yarn`:
-
-```bash
-yarn add stimulus
-```
-
-Next, lets update `javascaript/packs/application.js` to add Stimulus. Add the following lines:
-
-```javascript
-// requires all of the controllers in the app/components directory.
-const componentContext = require.context("../../components/", true, /(.*)\/.+\.js$/);
-application.load(definitionsFromContext(componentContext));
-```
-
-Great! Now we are ready to get started.
 
 ### Refactoring Partials into ViewComponents
 
