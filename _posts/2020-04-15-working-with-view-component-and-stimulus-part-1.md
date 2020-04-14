@@ -5,23 +5,13 @@ tags: [ruby, rails, vew_component, stimulus]
 comments: true
 ---
 
+All of the example code for this post can be found at 
+[https://github.com/fugufish/sample_app_6th_ed](https://github.com/fugufish/sample_app_6th_ed)
 
 Github's [ViewComponent](https://github.com/github/view_component) and [Stimulus](https://stimulusjs.org/) is one 
 of those matches made in heaven. Like chocolate and peanut butter, caramel and sea salt, or Abbott and Costello, they 
 seem to just fit together perfectly. In this series of posts I will detail what I have found to be an ideal setup for
 developing Rails applications using these two complimentary libraries.
-
-## Stimulus
-
-Stimulus is a relatively new JavaScript framework built by the guys over at Basecamp, their opinionated answer to 
-React/Angular/Vue. Initially released in January of 2018, and in their own words is a 
-"[JavaScript framework of _modest_ ambitions](https://stimulusjs.org/handbook/introduction)". And it _is_ modest. With a
-reference documentation of only 5 concise pages, it is definitely one of the smaller JavaScript frameworks out there,
-and yet hits way above its weight class.
-
-Unlike frameworks such as React and Vue, Stimulus renders on top of the DOM, it doesn't implement a virtual or shadow 
-dom. That means it works seamlessly with your existing HTML, and requires very little modification to get it to work
-with existing applications.
 
 ## ViewComponent
 
@@ -33,12 +23,6 @@ ViewComponent is a Rails library by Github that somewhat mirrors the idea of
  Unlike traditional Rails decorators, ViewComponents come with their own Ruby Component class that is used to define
  the variables and methods that the view needs in order to render. This makes testing views dead simple, and strongly
  encourages reusable code.
- 
-## The Mix
-
-Mixing Stimulus and ViewComponent seems like a no-brainer. ViewComponent renders the Component, and Stimulus handles the
-JavasScript interactions of that component. With modern Rails stacks (>= 5) this means that all of the code for any
-particular component can exist in a single place, much like it would in a React application.
 
 ## Getting Started with ViewComponent
 
