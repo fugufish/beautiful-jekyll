@@ -5,9 +5,6 @@ tags: [ruby, rails, vew_component, stimulus]
 comments: true
 ---
 
-All of the example code for this post can be found at 
-[https://github.com/fugufish/sample_app_6th_ed](https://github.com/fugufish/sample_app_6th_ed)
-
 Github's [ViewComponent](https://github.com/github/view_component) and [Stimulus](https://stimulusjs.org/) is one 
 of those matches made in heaven. Like chocolate and peanut butter, caramel and sea salt, or Abbott and Costello, they 
 seem to just fit together perfectly. In this series of posts I will detail what I have found to be an ideal setup for
@@ -199,3 +196,7 @@ As you can see, testing the component is incredibly simple, and it is FAST.
 
 And you're done! Now take what you learned and apply it to the `_footer.html.erb` partial. Next up, we will integrate
 Stimulus!
+
+
+All of the example code for this post can be found at 
+[https://github.com/fugufish/sample_app_6th_ed](https://github.com/fugufish/sample_app_6th_ed)
