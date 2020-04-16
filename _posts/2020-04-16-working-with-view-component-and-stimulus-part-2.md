@@ -303,6 +303,5 @@ Congrats! You now have live updates! In my next post I will demonstrate how to s
 All of the example code for this post can be found at 
 [https://github.com/fugufish/sample_app_6th_ed](https://github.com/fugufish/sample_app_6th_ed)
 
-|| <!-- empty table header -->
-|:--:| <!-- table header/body separator with center formatting -->
-| [Part 1: ViewComponent](/2020-04-15-working-with-view-component-and-stimulus-part-1/) |
+
+[Part 1: ViewComponent](/2020-04-15-working-with-view-component-and-stimulus-part-1/)

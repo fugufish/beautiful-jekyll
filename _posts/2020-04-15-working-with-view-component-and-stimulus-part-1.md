@@ -200,3 +200,5 @@ Stimulus!
 
 All of the example code for this post can be found at 
 [https://github.com/fugufish/sample_app_6th_ed](https://github.com/fugufish/sample_app_6th_ed)
+
+[Part 2: Stimulus](/2020-04-16-working-with-view-component-and-stimulus-part-2)
